@@ -19,10 +19,10 @@ var app = express();
 
 
 var APIKeys = {
-    appId           : '__insert_your_app_id__',
-    clientId        : '__insert_your_app_client_id__',
-    clientSecret    : '__insert_your_app_client_secret__',
-    appSignature    : '__insert_your_app_signature__',
+    appId           : '486586bd-1ec6-4a8c-a425-f67680d56323',
+    clientId        : 'obqyy6lyd2b37rqtwj80togp',
+    clientSecret    : '4fVdalZDSquCis64FjTqvgIM',
+    appSignature    : 'qwhronn3wu2tvl41tgl1ajad3wyjpxkws5yjzxxa2io3skuqzok2spcdvehki3oiymdwzcqjicik2fdb1rohyusahx0oifxiqz3ibxnx3si5cq4hzcftplc04s4tbcqnpqrocmemju4f5wpia53hcds1xybbvobp31rrisf5b52l0h2viktmnpkkd4klxw1if0nzktugh2hzajc2r3uqfvsein2vbs2hdimfns3efu1b5ysc1txypzxumisnc33',
     authUrl         : 'https://auth.exacttargetapis.com/v1/requestToken?legacy=1'
 };
 

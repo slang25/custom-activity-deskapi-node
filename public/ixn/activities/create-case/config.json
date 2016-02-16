@@ -15,8 +15,8 @@
     "arguments": {
         "execute": {       
 			"inArguments":[
-				{ "firstName":"{{Testing_DEs.deskapi.FirstName}}"},
-				{ "lastName":"{{Testing_DEs.deskapi.LastName}}"},
+				{ "firstName":"{{Testing_DEs.JOURNEY_IN.FirstName}}"},
+				{ "lastName":"{{Testing_DEs.JOURNEY_IN.LastName}}"},
 				{ "emailAddress": "{{Contact.Default.Email}}"}							
 			],
             "outArguments": [

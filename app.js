@@ -19,10 +19,10 @@ var app = express();
 
 
 var APIKeys = {
-    appId           : '486586bd-1ec6-4a8c-a425-f67680d56323',
-    clientId        : 'obqyy6lyd2b37rqtwj80togp',
-    clientSecret    : '4fVdalZDSquCis64FjTqvgIM',
-    appSignature    : 'qwhronn3wu2tvl41tgl1ajad3wyjpxkws5yjzxxa2io3skuqzok2spcdvehki3oiymdwzcqjicik2fdb1rohyusahx0oifxiqz3ibxnx3si5cq4hzcftplc04s4tbcqnpqrocmemju4f5wpia53hcds1xybbvobp31rrisf5b52l0h2viktmnpkkd4klxw1if0nzktugh2hzajc2r3uqfvsein2vbs2hdimfns3efu1b5ysc1txypzxumisnc33',
+    appId           : '0263872c-cf8e-430d-bfe5-de1f96d131ce',
+    clientId        : 'de73m9e1zz02c64svltv7u8y',
+    clientSecret    : '32HTeaszIFojKdWvm6a6RSds',
+    appSignature    : 'x32oco1d4kpvlbgaigyq0hhbekyhx2kzae1ril0xez2maymc25hvsrxj0u0v31dunlmzstctfwvap2rwsrro0vo5b1aea030lq4vcdwzerobe4qchd35nk3cvvmluidwy22ricac0krqiy1x1ulvijpkyykkfehsyop1xutjez5ealkam5bocgavl2gcgauilk0jc0zlbut5eetn5h3zwad33xacs1h4efdmabbjoj5mzuofd30cali25pqt41d',
     authUrl         : 'https://auth.exacttargetapis.com/v1/requestToken?legacy=1'
 };
 
@@ -52,8 +52,6 @@ app.use(express.cookieSession({secret: "DeskAPI-CookieSecret0980q8w0r8we09r8"}))
 
 // Configure Express
 app.set('port', process.env.PORT || 3000);
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
 app.use(express.logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded());

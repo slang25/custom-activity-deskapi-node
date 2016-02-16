@@ -22,7 +22,7 @@
             "outArguments": [
             	{ "caseID":"number" }
 			],			
-			"url": "https://je-deskapi.herokuapp.com/ixn/activities/create-case/execute/",
+			"url": "https://voucher-test.simples.je-labs.com/ixn/activities/create-case/execute/",
             "verb": "POST",
             "body": "",
             "header": "",
@@ -32,29 +32,29 @@
         }
     },
     "configurationArguments": {
-    	"applicationExtensionKey": "je-desk-activity-payman",
+    	"applicationExtensionKey": "vouchertesttest",
         "defaults": { "priority": "4"},             
         "save": {
-        	"url": "https://je-deskapi.herokuapp.com/ixn/activities/create-case/save/",
+        	"url": "https://voucher-test.simples.je-labs.com/ixn/activities/create-case/save/",
             "body": "",
             "verb": "POST",
             "useJwt": false
         },
         "publish": {
-        	"url": "https://je-deskapi.herokuapp.com/ixn/activities/create-case/publish/",
+        	"url": "https://voucher-test.simples.je-labs.com/ixn/activities/create-case/publish/",
             "verb": "POST",
             "body": "",
             "useJwt": false
         },
         "validate": {
-        	"url": "https://je-deskapi.herokuapp.com/ixn/activities/create-case/validate/",
+        	"url": "https://voucher-test.simples.je-labs.com/ixn/activities/create-case/validate/",
             "verb": "POST",
             "body": "",
             "useJwt": false            
         }
     },
     "edit": {
-    	"url": "https://je-deskapi.herokuapp.com/ixn/activities/create-case/",
+    	"url": "https://voucher-test.simples.je-labs.com/ixn/activities/create-case/",
         "height": 400,
         "width": 500
     }
